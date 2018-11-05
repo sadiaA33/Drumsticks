@@ -1,0 +1,123 @@
+.flex-container{
+    display: block;
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    justify-content: center;
+    
+   /* padding-top: 100px;*/
+    height: 100vh;
+    
+    /*height: 1800px;
+    width: 100%;*/
+}
+.head{
+    
+    text-align: center;
+    height: 10px;
+    font-family: cursive;
+    color:black;
+    font-size: 25px;
+}
+h2{
+    margin-top: 400px;
+    text-align: center;
+    color: gray;
+    text-shadow: 2px 2px 10px red;
+    
+}
+h1{
+    text-shadow: 2px 2px 10px red;
+}
+
+.keys{
+    justify-content: center;
+    display: flex;
+    margin-top: 30%;
+    
+   
+}
+#keyA{
+    margin-top: 1%;
+    margin-right: 30px;
+    height: 50px;
+    background-color:greenyellow;
+    box-shadow: 2px 2px 10px grey;
+    
+    
+    /*padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;*/
+}
+#keyA:hover{
+    filter: invert(100%);
+    transition: all 1.5s;
+    box-shadow: 2px 2px 10px grey;
+
+}
+
+#keyS{
+    margin-top: 10px;
+    margin-right: 30px;
+    height: 50px;
+    background-color: aqua;
+    box-shadow: 2px 2px 10px grey;
+    }
+
+ #keyD{
+    margin-top: 10px;
+    margin-right: 30px;
+    height: 50px;
+    
+    background-color:green;
+    box-shadow: 2px 2px 10px grey;
+ }
+
+ #keyF{
+    margin-top: 10px;
+    margin-right: 30px;
+    height: 50px;
+    
+    background-color:blue;
+    box-shadow: 2px 2px 10px grey;
+    
+    }
+    #keyG{
+        margin-top: 10px;
+        margin-right: 30px;
+        height: 50px;
+        background-color:yellow;
+        box-shadow: 2px 2px 10px grey;
+        }
+    #keyH{
+        margin-top: 10px;
+        margin-right: 30px;
+        height: 50px;
+        background-color: blueviolet;
+        box-shadow: 2px 2px 10px grey;
+        }
+    #keyJ{
+        margin-top: 10px;
+        margin-right: 30px;
+        height: 50px;
+        background-color: magenta;
+        box-shadow: 2px 2px 10px grey;
+        
+        }
+    #keyK{
+        margin-top: 10px;
+        margin-right: 30px;
+        height: 50px;
+        background-color:rgb(22, 138, 173);
+        box-shadow: 2px 2px 10px grey;
+        }
+    #keyL{
+        margin-top: 10px;
+        margin-right: 30px;
+        height: 50px;
+        background-color:salmon;
+        box-shadow: 2px 2px 10px grey;
+        }
